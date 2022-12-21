@@ -6,7 +6,8 @@ require("null-ls").setup({
       extra_filetypes = {"svelte"}
     }),
     require("null-ls").builtins.diagnostics.clang_check,
-    require("null-ls").builtins.formatting.clang_format
+    require("null-ls").builtins.formatting.clang_format,
+    require("null-ls").builtins.formatting.dart_format,
     },
 
     -- you can reuse a shared lspconfig on_attach callback here

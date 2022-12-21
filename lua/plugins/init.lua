@@ -1,13 +1,10 @@
 local plugins = {
-
-  ["kylechui/nvim-surround"] = {
-    tag = "*",
-    config = function ()
-      require("nvim-surround").setup({})
-    end
-  },
-
   ["nvim-lua/plenary.nvim"] = { module = "plenary" },
+  ["akinsho/flutter-tools.nvim"] = {
+    config = function ()
+      require "plugins.configs.dart"
+    end,
+  },
 
   ["jose-elias-alvarez/null-ls.nvim"] = {
     config = function ()

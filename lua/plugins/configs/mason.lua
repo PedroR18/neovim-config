@@ -15,7 +15,6 @@ vim.api.nvim_create_autocmd("Filetype", {
 
 local options = {
   ensure_installed = { "lua-language-server",
-    "prisma-language-server",
     "css-lsp",
     "emmet-ls",
     "eslint-lsp",
