@@ -20,13 +20,10 @@ local options = {
     "eslint-lsp",
     "html-lsp",
     "json-lsp",
-    "marksman",
     "prettier",
     "svelte-language-server",
     "tailwindcss-language-server",
     "typescript-language-server",
-    "ltex-ls",
-    "clangd"
   }, -- not an option from mason.nvim
 
   PATH = "skip",
