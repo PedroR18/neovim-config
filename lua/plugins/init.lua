@@ -1,5 +1,6 @@
 local plugins = {
   ["nvim-lua/plenary.nvim"] = { module = "plenary" },
+
   ["akinsho/flutter-tools.nvim"] = {
     config = function ()
       require "plugins.configs.dart"
