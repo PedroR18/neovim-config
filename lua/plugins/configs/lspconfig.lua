@@ -75,5 +75,6 @@ lspconfig.prismals.setup{}
 lspconfig.tsserver.setup{}
 lspconfig.eslint.setup{}
 lspconfig.ltex.setup{}
+lspconfig.rust_analyzer.setup{}
 
 return M

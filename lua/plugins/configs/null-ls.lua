@@ -5,9 +5,8 @@ require("null-ls").setup({
     require("null-ls").builtins.formatting.prettier.with({
       extra_filetypes = {"svelte"}
     }),
-    require("null-ls").builtins.diagnostics.clang_check,
-    require("null-ls").builtins.formatting.clang_format,
     require("null-ls").builtins.formatting.dart_format,
+    require("null-ls").builtins.formatting.rustfmt
     },
 
     -- you can reuse a shared lspconfig on_attach callback here
