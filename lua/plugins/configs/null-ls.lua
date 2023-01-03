@@ -2,14 +2,13 @@ local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 require("null-ls").setup({
 
 	on_init = function(new_client, _)
-		new_client.offset_encoding = "utf-32"
+		new_client.offset_encoding = "utf-16"
 	end,
 
 	sources = {
 		require("null-ls").builtins.formatting.prettier.with({
 			extra_filetypes = { "svelte" },
 		}),
-		require("null-ls").builtins.formatting.dart_format,
 		require("null-ls").builtins.formatting.stylua,
 		require("null-ls").builtins.formatting.clang_format,
 	},

@@ -64,14 +64,12 @@ lspconfig.sumneko_lua.setup({
 	},
 })
 
-lspconfig.marksman.setup({})
 lspconfig.cssls.setup({})
 lspconfig.svelte.setup({})
 lspconfig.tailwindcss.setup({})
 lspconfig.emmet_ls.setup({})
 lspconfig.html.setup({})
 lspconfig.jsonls.setup({})
-lspconfig.prismals.setup({})
 lspconfig.tsserver.setup({})
 lspconfig.eslint.setup({})
 lspconfig.ltex.setup({})
