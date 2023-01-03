@@ -73,6 +73,6 @@ lspconfig.jsonls.setup({})
 lspconfig.tsserver.setup({})
 lspconfig.eslint.setup({})
 lspconfig.ltex.setup({})
-lspconfig.clangd.setup({})
+lspconfig.rust_analyzer.setup({})
 
 return M

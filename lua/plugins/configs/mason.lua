@@ -26,8 +26,8 @@ local options = {
 		"tailwindcss-language-server",
 		"typescript-language-server",
 		"stylua",
-		"clangd",
-		"clang-format",
+		"rustfmt",
+		"rust-analyzer",
 	}, -- not an option from mason.nvim
 
 	PATH = "skip",
