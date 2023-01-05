@@ -1,0 +1,6 @@
+alias xinstall='sudo xbps-install -S'
+alias xsearch='xbps-query -Rs'
+alias xupdate='sudo xbps-install -Su'
+alias xremove='sudo xbps-remove -R'
+alias xorphan='sudo xbps-remove -Ro'
+
