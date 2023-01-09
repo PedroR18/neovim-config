@@ -10,7 +10,9 @@ require("null-ls").setup({
 			extra_filetypes = { "svelte" },
 		}),
 		require("null-ls").builtins.formatting.stylua,
-		require("null-ls").builtins.formatting.clang_format,
+		require("null-ls").builtins.formatting.gofumpt,
+		require("null-ls").builtins.formatting.goimports,
+		require("null-ls").builtins.formatting.golines,
 	},
 
 	-- you can reuse a shared lspconfig on_attach callback here

@@ -72,6 +72,6 @@ lspconfig.html.setup({})
 lspconfig.jsonls.setup({})
 lspconfig.tsserver.setup({})
 lspconfig.eslint.setup({})
-lspconfig.clangd.setup({})
+lspconfig.gopls.setup({})
 
 return M
